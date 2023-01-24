@@ -18,7 +18,7 @@ header{
 }
 
 .col {
-    border-bottom:solid ;
+    
     flex: 1;
     padding: 20px;
 }
@@ -28,4 +28,8 @@ header{
     border-left:  solid rgb(0, 0, 0);
 
 }
-
+ footer{
+    
+    background-color: brown;
+    padding: 10px;
+ }
