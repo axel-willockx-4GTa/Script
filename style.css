@@ -18,13 +18,14 @@ header{
 }
 
 .col {
-    border-bottom: ;
-    border-left:  solid rgb(0, 0, 0);
+    border-bottom:solid ;
     flex: 1;
     padding: 20px;
 }
 
 .right {
     flex: 2;
+    border-left:  solid rgb(0, 0, 0);
+
 }
 
