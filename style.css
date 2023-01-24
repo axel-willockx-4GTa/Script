@@ -1,5 +1,16 @@
 body {
     background-color: rgb(147, 184, 184);
+    font-family: Arial, sans-serif;
+    
+}
+
+p {
+    font-weight: 100;
+}
+header{
+    background-color: brown;
+    padding: 10px;
+    
 }
 
 #about {
@@ -7,10 +18,13 @@ body {
 }
 
 .col {
-    border: 1px solid rgb(0, 0, 0);
+    border-bottom: ;
+    border-left:  solid rgb(0, 0, 0);
     flex: 1;
+    padding: 20px;
 }
 
 .right {
     flex: 2;
 }
+
