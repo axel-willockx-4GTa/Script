@@ -1,20 +1,21 @@
 body {
     background-color: rgb(192, 191, 191);
     font-family: Arial, sans-serif;
-    
-    
+
+
 }
 
 p {
     font-weight: 100;
     color: rgb(0, 0, 0);
-    
+
 }
-header{
+
+header {
     background-color: brown;
     padding: 10px;
 
-    
+
 }
 
 #about {
@@ -23,40 +24,32 @@ header{
     margin: 1%;
 }
 
+#about li {
+    padding: 10px;    
+}
+
+#about a {
+    padding: 6px;
+    background-color: rgb(204, 212, 43);
+}
+
 .col {
-    
+
     flex: 1;
     padding: 20px;
 }
 
 .right {
     flex: 2;
-    border-left:  solid rgb(0, 0, 0);
+    border-left: solid rgb(0, 0, 0);
 
 }
- footer{
-    
+
+footer {
     background-color: rgb(136, 158, 202);
     padding: 10px;
-    
-    
-    
-    
-
-    
-
-    
-
- }
-
-a:hover{
-    color: rgb(255, 255, 255);
-    
 }
 
-
-
-
-
-
-
+a:hover {
+    color: rgb(255, 255, 255);
+}
