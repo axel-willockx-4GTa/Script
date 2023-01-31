@@ -2,20 +2,25 @@ body {
     background-color: rgb(192, 191, 191);
     font-family: Arial, sans-serif;
     
+    
 }
 
 p {
     font-weight: 100;
+    color: aliceblue;
+    
 }
 header{
     background-color: brown;
     padding: 10px;
-    
+
     
 }
 
 #about {
     display: flex;
+    padding: 3%;
+    margin: 1%;
 }
 
 .col {
@@ -33,11 +38,22 @@ header{
     
     background-color: brown;
     padding: 10px;
+    
+    
+
+    
+
+    
+
  }
 
 a:hover{
     color: rgb(255, 255, 255);
+    
 }
+
+
+
 
 
 
