@@ -11,6 +11,7 @@ header{
     background-color: brown;
     padding: 10px;
     
+    
 }
 
 #about {
@@ -33,3 +34,11 @@ header{
     background-color: brown;
     padding: 10px;
  }
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
