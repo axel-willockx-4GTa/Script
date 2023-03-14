@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(202, 144, 192);
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header nav li {
+    display: inline;
+    padding: 20px;
+    
+
+    
+}
+header img{
+    width: 120px;
+}
+header input{
+    border-radius: 15px;
+    padding: 4px 10px;
+    width: 100px;
+}
+header i{
+    margin-left: 10px;
+    color: rgb(0, 0, 0)
+    font-size: 14px;
+}
+video{
+    width: 100%;
+}
+.videoframe{
+    max-height: 50vh;
+    
+}
+
