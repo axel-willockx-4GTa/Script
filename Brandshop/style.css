@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(202, 144, 192);
+    background-color: rgb(255, 255, 255);
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
@@ -19,6 +19,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    
     
 }
 header nav li {
@@ -48,4 +50,13 @@ video{
     max-height: 50vh;
     
 }
+img{
+    display: block;
+    width: 100%;
+}
+.flex-item{
+    flex: 1;
+
+}
+
 
