@@ -52,7 +52,7 @@ video{
 }
 img{
     display: block;
-    width: 100%;
+    width: 50%;
 }
 .flex-item{
     flex: 1;
