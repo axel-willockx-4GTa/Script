@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -6,57 +6,96 @@
 body {
     background-color: rgb(255, 255, 255);
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-header{
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+header {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    
+
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
-    
-}
-header nav li {
-    display: inline;
-    padding: 20px;
-    
+    gap: 1rem;
 
-    
 }
-header img{
-    width: 120px;
-}
-header input{
-    border-radius: 15px;
-    padding: 4px 10px;
-    width: 100px;
-}
-header i{
-    margin-left: 10px;
-    color: rgb(0, 0, 0)
-    font-size: 14px;
-}
-video{
-    width: 100%;
-}
-.videoframe{
-    max-height: 50vh;
-    
-}
-img{
-    display: block;
-    width: 50%;
-}
-.flex-item{
+
+.flex-item {
     flex: 1;
 
 }
 
+header nav li {
+    display: inline;
+    padding: 20px;
 
+
+
+}
+
+header img {
+    width: 120px;
+}
+
+header input {
+    border-radius: 15px;
+    padding: 4px 10px;
+    width: 100px;
+}
+
+header i {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+video {
+    width: 100%;
+}
+
+.videoframe {
+    max-height: 50vh;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+.highlight{
+    background-color: greenyellow;
+    padding: 2%;
+}
+
+#categorie img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    color: aliceblue;
+    background-color: rgb(69, 76, 18);
+    padding: 2%;
+    font-size: large;
+}
