@@ -95,7 +95,9 @@ figcaption {
     bottom: 12%;
     left: 10%;
     color: aliceblue;
-    background-color: rgb(69, 76, 18);
-    padding: 2%;
-    font-size: large;
+    background-color: rgb(18, 24, 76);
+    padding: 3%;
+    font-size: larger;
+    border-radius: 10%;
+
 }
